@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div id="city">
+            Unknown
+        </div>
+        <div id="weather">
+            <div id="temp-section">
+                <span id="temp">10</span>
+                <span id="unit">°C</span>
+            </div>
+            <div id="sub-data">
+                <!-- Icons from https://github.com/tabler/tabler-icons -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-flag-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M4 5a1 1 0 0 1 .3 -.714a6 6 0 0 1 8.213 -.176l.351 .328a4 4 0 0 0 5.272 0l.249 -.227c.61 -.483 1.527 -.097 1.61 .676l.005 .113v9a1 1 0 0 1 -.3 .714a6 6 0 0 1 -8.213 .176l-.351 -.328a4 4 0 0 0 -5.136 -.114v6.552a1 1 0 0 1 -1.993 .117l-.007 -.117v-16z" stroke-width="0" fill="currentColor"></path>
+                </svg> 
+                <span id="rain-speed">10</span>
+                <span id="rain-unit">M/s</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ripple" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M3 7c3 -2 6 -2 9 0s6 2 9 0"></path>
+                    <path d="M3 17c3 -2 6 -2 9 0s6 2 9 0"></path>
+                    <path d="M3 12c3 -2 6 -2 9 0s6 2 9 0"></path>
+                </svg>
+                <span id="humidity-value">0</span>
+                <span id="humidity-unit">%</span>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

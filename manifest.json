@@ -1,0 +1,12 @@
+{
+    "name": "Weather Report Extention",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "description": "Just Weather Report Extention",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions":[
+        "geolocation"
+    ]
+}
